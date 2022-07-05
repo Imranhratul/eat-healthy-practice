@@ -1,4 +1,4 @@
-span{
+h1 span {
     color: tomato;
 }
 h1{
@@ -8,11 +8,12 @@ h1{
 body{
     font-family: 'Times New Roman', Times, serif;
 }
-section{
+.body{
     display: flex;
 }
 .half-width{
     padding-left: 5%;
+   
 
 }
 .half-width-img{
@@ -27,4 +28,72 @@ section{
     padding: 6px 8px;
     border-radius: 40px;
     padding: 15px 15px;
+}
+.half-width-bur{
+    text-align: justify;
+    width: 40%;
+    padding-right: 5%;
+    padding-left: 20%;
+    padding-top: 10%;
+   
+}
+
+.half-width-bur-img{
+    width: 40%; height: 50%;
+
+}
+.mr-burger{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.recipie{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.food-cover{
+    display: flex;
+}
+.food1{
+    text-align: justify;
+    padding: 40px 6px 4px 40px;
+    width: 42%;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 20px;
+    margin-right: 90px;
+}
+.food2{
+    text-align: justify;
+    width: 40%;
+    padding-left: 50px;
+    padding-top: 40px;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 20px;
+}
+.follower{
+    display: flex;
+    box-shadow: 5px 5px 5px 5px grey;
+    padding: 9px 9px 9px 9px;
+    margin: 90px 90px 90px 90px;
+}
+.youtube{
+    width: 28%;
+    padding-left: 9%;
+}
+footer {
+    background-color:rgb(30, 30, 49) ;
+    margin: 5px 1px;
+    padding: 50px 1px;
+    text-align: center;
+}
+.life{
+color: white;
+}
+
+span{
+    color: orange;
+}
+.fresh{
+    color: black;
 }
